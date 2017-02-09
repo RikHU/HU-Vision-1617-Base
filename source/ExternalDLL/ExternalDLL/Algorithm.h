@@ -9,5 +9,6 @@ template<typename Input, typename Output> class Algorithm {
 public:
 
 	virtual void doAlgorithm(const Input &input, Output &output) = 0;
+	void nothing();
 
 };
